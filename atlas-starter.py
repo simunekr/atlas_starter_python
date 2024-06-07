@@ -6,7 +6,7 @@ import sys
 # you should not store your password in plain-text here.
 
 try:
-  client = pymongo.MongoClient(<Your Atlas Connection String>)
+  client = pymongo.MongoClient(<mongodb+srv://simunekro:1TkTwJBXzEmJkq7g@klastr.jwhib2l.mongodb.net/>)
   
 # return a friendly error if a URI error is thrown 
 except pymongo.errors.ConfigurationError:
